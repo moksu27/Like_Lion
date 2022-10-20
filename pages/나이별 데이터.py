@@ -3,7 +3,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-import koreanize_matplotlib
 import pingouin as pg
 import streamlit as st
 
