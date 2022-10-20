@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from glob import glob
+import plotly.express as px
 import koreanize_matplotlib
 import pingouin as pg
 import streamlit as st
@@ -12,12 +12,11 @@ st.set_page_config(
     page_icon="💻",
     layout="wide",
 )
-# 데이터 불러오기
-url = "https://raw.githubusercontent.com/moksu27/midproject/main/healthcare-dataset-stroke-data.csv"
 
+
+url = "https://raw.githubusercontent.com/moksu27/midproject/main/healthcare-dataset-stroke-data.csv"
 df = pd.read_csv(url)
 
-# 데이터 전처리
 # 성별 "Other" 행 제거 및 인덱스 리셋
 df = df.drop(index = 3116)
 df = df.reset_index()
@@ -59,6 +58,17 @@ for i in df["gender"]:
         gender_list.append(1)
 df["gender_number"] = gender_list
 
-# 데이터 출력
-st.title('뇌졸중 환자 전체 데이터🏥')
-st.dataframe(df)
+st.title('연령대별 뇌졸중 환자 데이터🏥')
+st.bar_chart(data = df, x = "age_group",y = "stroke")
+
+st.markdown("## 성별과 나이별 데이터")
+plot = sns.catplot(data = df, x="age_group", y = "stroke", col ="gender", kind = "bar")
+st.pyplot(plot)
+
+st.markdown("## 히스토그램 시각화")
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.histplot(data = df, x ="age_group", hue = "stroke", kde = True)
+st.pyplot(fig)
+
+
+# st.plotly_chart(plot)
