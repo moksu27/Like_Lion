@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pingouin as pg
 import streamlit as st
+import koreanize_matplotlib
 
 st.set_page_config(
     page_title="삼삼오오 미드프로젝트",
