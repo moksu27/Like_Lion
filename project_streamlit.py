@@ -59,4 +59,4 @@ for i in df["gender"]:
         gender_list.append(1)
 df["gender_number"] = gender_list
 
-df
+st.dataframe(df)
