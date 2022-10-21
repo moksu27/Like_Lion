@@ -2,9 +2,10 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.express as px
 import pingouin as pg
 import streamlit as st
+import koreanize_matplotlib
+
 
 st.set_page_config(
     page_title="삼삼오오 미드프로젝트",
@@ -69,5 +70,3 @@ fig, ax = plt.subplots(figsize=(10, 6))
 sns.histplot(data = df, x ="age_group", hue = "stroke", kde = True)
 st.pyplot(fig)
 
-
-# st.plotly_chart(plot)
