@@ -52,14 +52,14 @@ for i in df["gender"]:
         gender_list.append(1)
 df["gender_number"] = gender_list
 
-st.title('연령대별 뇌졸중 환자 데이터🏥')
+st.title('연령대별 뇌졸중 환자 분포')
 st.bar_chart(data = df, x = "age_group",y = "stroke")
 
-st.markdown("## 성별과 나이별 데이터")
+st.markdown("## 성별과 나이별 뇌졸중 환자 분포")
 plot = sns.catplot(data = df, x="age_group", y = "stroke", col ="gender", kind = "bar")
 st.pyplot(plot)
 
-st.markdown("## 히스토그램 시각화")
+st.markdown("## 히스토그램 그래프")
 fig, ax = plt.subplots(figsize=(10, 6))
 sns.histplot(data = df, x ="age_group", hue = "stroke", kde = True)
 st.pyplot(fig)
