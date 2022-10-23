@@ -7,12 +7,6 @@ import streamlit as st
 import koreanize_matplotlib
 
 
-st.set_page_config(
-    page_title="삼삼오오 미드프로젝트",
-    page_icon="💻",
-    layout="wide",
-)
-
 
 url = "https://raw.githubusercontent.com/moksu27/midproject/main/healthcare-dataset-stroke-data.csv"
 df = pd.read_csv(url)
