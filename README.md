@@ -11,4 +11,4 @@
 ## 링크
 Link: [Dacon_영화 관객수 예측 경진대회][Daconlink]
 
-[Daconlink]: https://dacon.io/competitions/open/235536/data
+[Daconlink]: https://dacon.io/competitions/open/235536/overview/description
