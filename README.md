@@ -7,8 +7,8 @@ CNN을 통한 얼굴 표정 분류 AI 모델 개발 프로젝트<br/><br/>
 |순번|데이터|구성|             
 |:-:|:-------:|:------:|          
 |1|train|angry : 3995장<br/>disgust : 436장<br/>fear : 4097장<br/>happy : 7215장<br/>neutral : 4965장<br/>sad : 4830장<br/>surprise : 3171장|                       
-|2|test|angry : 3995장<br/>disgust : 436장<br/>fear : 4097장<br/>happy : 7215장<br/>neutral : 4965장<br/>sad : 4830장<br/>surprise : 3171장|         
+|2|test|angry : 958장<br/>disgust : 111장<br/>fear : 1024장<br/>happy : 1774장<br/>neutral : 1233장<br/>sad : 1247장<br/>surprise : 831장|         
 ## 링크
-Link: [Dacon_문장 유형 분류 AI 경진대회][Daconlink]
+Link: [Kaggle_Learn facial expressions from an image][Kagglelink]
 
-[Daconlink]: https://dacon.io/competitions/official/236037/overview/description
+[Kagglelink]: https://www.kaggle.com/datasets/msambare/fer2013
