@@ -6,8 +6,8 @@ import pingouin as pg
 import streamlit as st
 
 st.set_page_config(
-    page_title="삼삼오오 미드프로젝트",
-    page_icon="💻",
+    page_title="펫 산업 동향 분석",
+    page_icon="🐶",
     layout="wide",
 )
 # 데이터 불러오기
