@@ -11,11 +11,11 @@ st.set_page_config(
     layout="wide",
 )
 # 데이터 불러오기
-url = "https://raw.githubusercontent.com/moksu27/midproject/main/healthcare-dataset-stroke-data.csv"
+url = ""
 
 df = pd.read_csv(url)
 
 
 # 데이터 출력
-st.title('뇌졸중 환자 전체 데이터🏥')
+st.title('')
 st.dataframe(df)
