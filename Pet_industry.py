@@ -44,7 +44,7 @@ word_draw = WordCloud(
 
 wc = word_draw.generate(" ".join(data["기사 제목"]))
 
-fig = plt.figure()  # 스트림릿에서 plot그리기
+fig = plt.figure(figsize=(6,6))  # 스트림릿에서 plot그리기
 plt.imshow(wc, interpolation='bilinear')
 plt.axis('off')
 plt.show()

@@ -18,9 +18,6 @@ news20 = pd.read_csv(url_20)
 news21 = pd.read_csv(url_21)
 news22 = pd.read_csv(url_22)
 
-news20 = news20.sort_values(by = '빈도', ascending = False)
-st.dataframe(data=news20)
-
 st.title('연도 별 단어 빈도 수')
 year = st.selectbox('기사 년도',['2020년','2021년','2022년'])
 if year == '2020년':
