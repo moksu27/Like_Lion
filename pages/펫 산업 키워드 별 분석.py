@@ -72,9 +72,13 @@ def run_query():
         server.views.populate_image(item10)
         img10 = item10.image
         
-        return workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10
+        item11 = workbooks[3].views[2]
+        server.views.populate_image(item11)
+        img11 = item11.image
+        
+        return workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11
 
-workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10= run_query()
+workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11 = run_query()
 
 word = st.selectbox('펫 산업 키워드',['반려동물 용품','펫케어','펫푸드', '종합'])
 
@@ -83,13 +87,15 @@ st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
-    st.image(img1, width=800)
     st.image(img5, width=800)
+    st.image(img11, width=800)
+    st.image(img1, width=800)
     
 elif word == '펫케어':
     st.subheader("반려동물 용품")
     st.image(img2, width=800)
     st.image(img6, width=800)
+    
 elif word == '펫푸드':
     st.subheader("반려동물 용품")
     st.image(img3, width=800)
