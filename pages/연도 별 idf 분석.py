@@ -12,7 +12,7 @@ tableau_auth = TSC.PersonalAccessTokenAuth(
     st.secrets["tableau"]["personal_access_token"],
     st.secrets["tableau"]["site_id"],
 )
-server = TSC.Server(st.secrets["tableau"]["https://prod-apnortheast-a.online.tableau.com/"], use_server_version=True)
+server = TSC.Server(st.secrets["tableau"]["server_url"], use_server_version=True)
 
 
 # Get various data.
