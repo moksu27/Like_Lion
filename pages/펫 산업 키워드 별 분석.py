@@ -45,5 +45,5 @@ st.subheader(workbooks_names[2])
 st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
 st.subheader("반려동물 용품")
-st.image(view_image, width=1000, height = 500)
+st.image(view_image, width=1000)
 # st.image(view_image5, width=1000, height = 500)
