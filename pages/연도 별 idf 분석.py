@@ -46,7 +46,7 @@ workbooks_names, views_names, view_name, view_image, view_csv = run_query()
 
 # Print results.
 st.subheader("📓 Workbooks")
-st.write("Found the following workbooks:", ", ".join(workbooks_names))
+st.write(workbooks_names[-1])
 
 st.subheader("👁️ Views")
 st.write(
