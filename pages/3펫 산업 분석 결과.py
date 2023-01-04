@@ -45,7 +45,7 @@ image3 = Image.open('data/word2vec.png')
 
 
 st.image(image1, width = 800)
-st.image(img1, width = 800)
+st.image(img1, width = 400)
 
 
 st.image(image2, width = 800)
