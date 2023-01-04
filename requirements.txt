@@ -6,3 +6,4 @@ seaborn
 matplotlib
 koreanize_matplotlib
 wordcloud
+PIL

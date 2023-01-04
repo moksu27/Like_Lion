@@ -4,7 +4,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 from wordcloud import WordCloud
+from PIL import Image
 
+image = Image.open('data/펫산업동향.png')
+
+st.image(image)
 
 
 st.set_page_config(
