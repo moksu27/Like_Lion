@@ -129,9 +129,9 @@ st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
+    st.image(img14, width=800, cation = "반려동물 용품 관련 키워드 (Tf-idf 기준): 연도별")
     st.image(img17, width=800)
-    st.image(img14, width=800)
-    st.image(img5, width=800)
+    st.image(img5, width=800, caption = "펫푸드 관련 키워드 (Tf-idf 기준): 2020-2022 총합")
     st.image(img1, width=800)
 
     
