@@ -27,31 +27,35 @@ def run_query():
         workbooks_names = [w.name for w in workbooks]
 
         # Get views for first workbook.
-        server.workbooks.populate_views(workbooks[-1])
-        views_names = [v.name for v in workbooks[-1].views]
+        server.workbooks.populate_views(workbooks[2])
+        views_names = [v.name for v in workbooks[2].views]
 
         # Get image & CSV for first view of first workbook.
         view_item = workbooks[-1].views[0]
         server.views.populate_image(view_item)
         server.views.populate_csv(view_item)
         view_name = view_item.name
-        view_image = view_item.image
+        view_image1 = view_item.image[0]
+        view_image2 = view_item.image[1]
+        view_image3 = view_item.image[2]
+        view_image4 = view_item.image[3]
+        view_image5 = view_item.image[4]
+        view_image6 = view_item.image[5]
+        view_image7 = view_item.image[6]
+        view_image8 = view_item.image[7]
+
         # `view_item.csv` is a list of binary objects, convert to str.
         view_csv = b"".join(view_item.csv).decode("utf-8")
 
-        return workbooks_names, views_names, view_name, view_image, view_csv
+        return workbooks_names, view_image1, view_image2, view_image3, view_image4, view_image5, view_image6, view_image7, view_image8
 
-workbooks_names, views_names, view_name, view_image, view_csv = run_query()
+workbooks_names, view_image1, view_image2, view_image3, view_image4, view_image5, view_image6, view_image7, view_image8 = run_query()
 
 
 # Print results.
 st.subheader(workbooks_names[-1])
 st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
-st.subheader("🖼️ Image")
-st.write(f"Here's what view looks like:")
-st.image(view_image, width=300)
-
-st.subheader("📊 Data")
-st.write(f"And here's the data for view *{view_name}*:")
-st.write(pd.read_csv(StringIO(view_csv)))
+st.subheader("반려동물 용품")
+st.image(view_image1, width=1000, height = 500)
+st.image(view_image5, width=1000, height = 500)
