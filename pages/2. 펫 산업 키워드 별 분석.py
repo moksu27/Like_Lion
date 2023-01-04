@@ -122,10 +122,10 @@ def run_query():
 
 workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21  = run_query()
 
+
+st.title(workbooks_names[2])
+
 word = st.selectbox('펫 산업 키워드',['반려동물 용품','펫케어','펫푸드', '종합'])
-
-st.subheader(workbooks_names[2])
-
 
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
