@@ -29,6 +29,8 @@ def run_query():
         # Get views for first workbook.
         server.workbooks.populate_views(workbooks[2])
         server.workbooks.populate_views(workbooks[3])
+        server.workbooks.populate_views(workbooks[4])
+        server.workbooks.populate_views(workbooks[5])
 
 
  # Get image & CSV for first view of first workbook.
@@ -72,13 +74,53 @@ def run_query():
         server.views.populate_image(item10)
         img10 = item10.image
         
-        item11 = workbooks[3].views[2]
+        item11 = workbooks[3].views[1]
         server.views.populate_image(item11)
         img11 = item11.image
         
-        return workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11
+        item12 = workbooks[3].views[2]
+        server.views.populate_image(item12)
+        img12 = item12.image        
 
-workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11 = run_query()
+        item13 = workbooks[3].views[3]
+        server.views.populate_image(item13)
+        img13 = item13.image
+        
+        item14 = workbooks[4].views[0]
+        server.views.populate_image(item14)
+        img14 = item14.image
+        
+        item15 = workbooks[4].views[1]
+        server.views.populate_image(item15)
+        img15 = item15.image
+        
+        item16 = workbooks[4].views[2]
+        server.views.populate_image(item16)
+        img16 = item16.image
+        
+        item17 = workbooks[4].views[3]
+        server.views.populate_image(item17)
+        img17 = item17.image
+        
+        item18 = workbooks[5].views[0]
+        server.views.populate_image(item18)
+        img18 = item18.image
+        
+        item19 = workbooks[5].views[1]
+        server.views.populate_image(item19)
+        img19 = item19.image
+        
+        item20 = workbooks[5].views[2]
+        server.views.populate_image(item20)
+        img20 = item20.image
+        
+        item21 = workbooks[5].views[3]
+        server.views.populate_image(item21)
+        img21 = item21.image
+        
+        return workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21 
+
+workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21  = run_query()
 
 word = st.selectbox('펫 산업 키워드',['반려동물 용품','펫케어','펫푸드', '종합'])
 
@@ -87,21 +129,24 @@ st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
+    st.image(img17, width=800)
+    st.image(img18, width=800)
     st.image(img5, width=800)
-    st.image(img11, width=800)
     st.image(img1, width=800)
+
     
 elif word == '펫케어':
-    st.subheader("반려동물 용품")
-    st.image(img2, width=800)
+    st.subheader("펫케어")
     st.image(img6, width=800)
+    st.image(img11, width=800)
+    st.image(img2, width=800)
+
     
 elif word == '펫푸드':
-    st.subheader("반려동물 용품")
+    st.subheader("펫푸드")
     st.image(img3, width=800)
     st.image(img7, width=800)
 
 elif word == '종합':
     st.subheader("종합")
-    st.image(img10, width=800)
     st.image(img9, width=800)
