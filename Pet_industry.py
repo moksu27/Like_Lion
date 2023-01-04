@@ -34,7 +34,7 @@ elif year == '2021년':
     data = news21
 elif year == '2022년':
     data = news22
-'''
+
 word_draw = WordCloud(
     font_path="System/Library/Fonts/AppleSDGothicNeo.ttc",
     width=1000, height=1000,
@@ -42,9 +42,8 @@ word_draw = WordCloud(
     stopwords=["반려동물","위한","개최","출시","일","반려동물과","에","로","월","반려동물용"],
     random_state=42
     )
-'''
 
-word_draw = WordCloud.generate(data)
+word_draw = word_draw.generate(data)
 
 fig, ax = plt.subplot(figsize=(12, 8))
 plt.imshow(word_draw)
