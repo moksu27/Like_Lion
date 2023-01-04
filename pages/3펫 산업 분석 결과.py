@@ -49,5 +49,5 @@ st.image(img1, width = 400)
 
 st.image(image2, width = 800)
 
-st.image(image3, width = 600)
+st.image(image3, width = 800)
 
