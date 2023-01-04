@@ -30,11 +30,12 @@ def run_query():
         server.workbooks.populate_views(workbooks[2])
 
         # Get image of workbook.
-        view_item = workbooks[2].views[0]
-        server.views.populate_image(view_item)
-        server.views.populate_csv(view_item)
-        view_image = view_item.image
-
+        view_item = []
+        view_image = []
+        for i in range(len(workbooks[2].views)):
+            view_item.append(workbooks[2].views[i])
+            server.views.populate_image(view_item[i])
+            view_image.append(view_item.image[i])
         return workbooks_names, view_image
 
 workbooks_names, view_image= run_query()
@@ -45,5 +46,5 @@ st.subheader(workbooks_names[2])
 st.write("Found the following workbooks:", ", ".join(workbooks_names))
 
 st.subheader("반려동물 용품")
-st.image(view_image, width=1000)
+st.image(view_image[0], width=800)
 # st.image(view_image5, width=1000, height = 500)
