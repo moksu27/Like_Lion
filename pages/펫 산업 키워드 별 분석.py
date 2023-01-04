@@ -130,7 +130,7 @@ st.write("Found the following workbooks:", ", ".join(workbooks_names))
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
     st.image(img17, width=800)
-    st.image(img18, width=800)
+    st.image(img14, width=800)
     st.image(img5, width=800)
     st.image(img1, width=800)
 
