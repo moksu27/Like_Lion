@@ -28,6 +28,8 @@ def run_query():
 
         # Get views for first workbook.
         server.workbooks.populate_views(workbooks[2])
+        server.workbooks.populate_views(workbooks[3])
+
 
  # Get image & CSV for first view of first workbook.
         item1 = workbooks[2].views[0]
