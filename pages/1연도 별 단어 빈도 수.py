@@ -24,4 +24,4 @@ elif year == '2021년':
     data = news21
 elif year == '2022년':
     data = news22
-st.bar_chart(data, x = 'word' , y ='빈도')
+st.bar_chart(data, x = 'word' , y ='빈도', width= 800, height= 500)
