@@ -150,9 +150,14 @@ elif word == '펫케어':
     
 elif word == '펫푸드':
     st.subheader("펫푸드")
-    st.image(img3, width=800)
+    st.image(img20, width=800)
     st.image(img7, width=800)
-
+    st.caption('펫푸드 관련 키워드 (Tf-idf 기준): 2020-2022 총합')
+    st.image(img21, width=800)
+    st.image(img3, width=800)
+    st.image(img18, width=800)
+    st.caption("펫푸드 관련 키워드 (Tf-idf 기준): 연도별")
+    
 elif word == '종합':
     st.subheader("종합")
     st.image(img9, width=800)
