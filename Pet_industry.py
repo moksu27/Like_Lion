@@ -35,7 +35,7 @@ elif year == '2022년':
     data = news22
 
 word_draw = WordCloud(
-    font_path="https://github.com/moksu27/Pet_industry_prediction_streamlit/blob/main/data/AppleSDGothicNeo.ttc",
+    font_path="data/NanumGothic.ttf"",
     width=1000, height=1000,
     background_color="white",
     stopwords=["반려동물","위한","개최","출시","일","반려동물과","에","로","월","반려동물용"],
