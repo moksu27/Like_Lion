@@ -8,11 +8,11 @@ import tableauserverclient as TSC
 
 # Set up connection.
 tableau_auth = TSC.PersonalAccessTokenAuth(
-    st.secrets["tableau"]["token_name"],
-    st.secrets["tableau"]["personal_access_token"],
-    st.secrets["tableau"]["site_id"],
+    st.secrets["tableau"]["likelion"],
+    st.secrets["tableau"]["62jg8HZ/S/GLIfShpfwN0A==:mD5YKoZAuy19dPiwoRSgBHbcMWt7CRIq"],
+    st.secrets["tableau"]["likelion"],
 )
-server = TSC.Server(st.secrets["tableau"]["server_url"], use_server_version=True)
+server = TSC.Server(st.secrets["tableau"]["https://prod-apnortheast-a.online.tableau.com/"], use_server_version=True)
 
 
 # Get various data.
