@@ -12,13 +12,13 @@ image2 = Image.open('data/스타사업.png')
 image3 = Image.open('data/word2vec.png')
 
 
-st.image(image3, width = 800)
-
-
-
 st.image(image1, width = 800)
 
 
 
 st.image(image2, width = 800)
+
+
+
+st.image(image3, width = 800)
 

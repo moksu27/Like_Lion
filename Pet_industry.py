@@ -7,14 +7,11 @@ from wordcloud import WordCloud
 from PIL import Image
 
 
-
-
 st.set_page_config(
     page_title="펫 산업 동향 분석",
     page_icon="🐶",
     layout="wide",
 )
-
 
 # 데이터 불러오기
 url_20 = "https://raw.githubusercontent.com/moksu27/Pet_industry_prediction_streamlit/main/data/news20_%EC%A0%84%EC%B2%98%EB%A6%AC.csv"
