@@ -125,7 +125,7 @@ workbooks_names, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, im
 word = st.selectbox('펫 산업 키워드',['반려동물 용품','펫케어','펫푸드', '종합'])
 
 st.subheader(workbooks_names[2])
-st.write("Found the following workbooks:", ", ".join(workbooks_names))
+
 
 if word == '반려동물 용품':
     st.subheader("반려동물 용품")
