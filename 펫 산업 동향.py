@@ -22,20 +22,22 @@ news21 = pd.read_csv(url_21)
 news22 = pd.read_csv(url_22)
 
 
-def display_word_cloud(data, width=1200, height=500):
+st.title('기사 주요 키워드')
+
+
+def main():
+    st.header('2020~2022년도 펫산업 관련 키워드')
+        
     word_draw = WordCloud(
         font_path="System/Library/Fonts/AppleSDGothicNeo.ttc",
-        width=width, height=height,
+        width=1000, height=1000,
         background_color="white",
         stopwords=["반려동물","위한","개최","출시","일","반려동물과","에","로","월","반려동물용"],
         random_state=42
     )
-    word_draw.generate(data)
-    fig, ax = plt.subplots(figsize=(15, 7))
+    word_draw.generate(news20)
+    fig = plt.figure(figsize=(15, 7))
     plt.imshow(word_draw)
     plt.axis("off")
     plt.show()
-
-st.title('기사 주요 키워드')
-display_word_cloud(" ".join(news20["기사 제목"]))
-st.pyplot(fig)
+    st.pyplot(fig)
