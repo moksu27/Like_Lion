@@ -3,10 +3,9 @@ dependencies:
   - numpy
   - pandas
   - streamlit
-  - finance-datareader
   - seaborn
   - matplotlib
   - koreanize_matplotlib
-  - wordcloud
-  - pip
-  - PIL
+  - wordcloud=1.8.2.2=py39h02fc5c5_1
+  - pip=22.3.1=py39hca03da5_0
+  - pillow=9.3.0=py39hf4a492f_1
