@@ -1,8 +1,0 @@
-pandas
-numpy
-streamlit
-finance-datareader
-seaborn
-matplotlib
-koreanize_matplotlib
-wordcloud

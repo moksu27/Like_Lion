@@ -1,0 +1,12 @@
+name: stats
+dependencies:
+  - numpy
+  - pandas
+  - streamlit
+  - finance-datareader
+  - seaborn
+  - matplotlib
+  - koreanize_matplotlib
+  - wordcloud
+  - pip
+  - PIL
