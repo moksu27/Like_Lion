@@ -27,11 +27,11 @@ def run_query():
         workbooks_names = [w.name for w in workbooks]
 
         # Get views for first workbook.
-        server.workbooks.populate_views(workbooks[0])
-        views_names = [v.name for v in workbooks[0].views]
+        server.workbooks.populate_views(workbooks[-1])
+        views_names = [v.name for v in workbooks[-1].views]
 
         # Get image & CSV for first view of first workbook.
-        view_item = workbooks[0].views[0]
+        view_item = workbooks[-1].views[0]
         server.views.populate_image(view_item)
         server.views.populate_csv(view_item)
         view_name = view_item.name
@@ -47,12 +47,6 @@ workbooks_names, views_names, view_name, view_image, view_csv = run_query()
 # Print results.
 st.subheader("📓 Workbooks")
 st.write(workbooks_names[-1])
-
-st.subheader("👁️ Views")
-st.write(
-    f"Workbook *{workbooks_names[0]}* has the following views:",
-    ", ".join(views_names),
-)
 
 st.subheader("🖼️ Image")
 st.write(f"Here's what view *{view_name}* looks like:")
