@@ -30,7 +30,7 @@ def run_query():
         server.workbooks.populate_views(workbooks[2])
 
         # Get image of workbook.
-        view_item = workbooks[-1].views[0]
+        view_item = workbooks[2].views[0]
         server.views.populate_image(view_item)
         server.views.populate_csv(view_item)
         view_image = view_item.image
