@@ -7,3 +7,4 @@ koreanize_matplotlib
 wordcloud
 pip>=22.3.1
 pillow
+tableauserverclient

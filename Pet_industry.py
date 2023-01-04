@@ -6,9 +6,7 @@ import streamlit as st
 from wordcloud import WordCloud
 from PIL import Image
 
-image = Image.open('data/펫산업동향.png')
 
-st.image(image)
 
 
 st.set_page_config(
@@ -16,6 +14,8 @@ st.set_page_config(
     page_icon="🐶",
     layout="wide",
 )
+
+
 # 데이터 불러오기
 url_20 = "https://raw.githubusercontent.com/moksu27/Pet_industry_prediction_streamlit/main/data/news20_%EC%A0%84%EC%B2%98%EB%A6%AC.csv"
 url_21 = "https://raw.githubusercontent.com/moksu27/Pet_industry_prediction_streamlit/main/data/news21_%EC%A0%84%EC%B2%98%EB%A6%AC.csv"
@@ -25,9 +25,10 @@ news20 = pd.read_csv(url_20)
 news21 = pd.read_csv(url_21)
 news22 = pd.read_csv(url_22)
 
+image = Image.open('data/펫산업동향.png')
+st.image(image)
 
 st.title('기사 주요 키워드')
-
 st.header('2020~2022년도 펫산업 관련 키워드')
         
 year = st.selectbox('기사 년도',['2020년','2021년','2022년'])
