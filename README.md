@@ -55,6 +55,7 @@
  
 
 - **리뷰 살펴보기**    
+
 긍정 리뷰         
 <img src="https://user-images.githubusercontent.com/72390138/213614448-87ec3ca9-3e77-4154-aaaa-3520982d3816.png" weight="450" height="300">       
 
@@ -66,7 +67,8 @@
 따라서, 리뷰 점수가 낮은 경우는 **배송에 대한 큰 불만**을 가지고 있다고 볼 수 있었습니다.    
  
 - **리뷰 데이터 워드 클라우드**     
-<img src="https://user-images.githubusercontent.com/72390138/213615571-939c109d-67eb-4246-9d6d-5a2d670ce695.png" weight="450" height="700">        
+<img src="https://user-images.githubusercontent.com/72390138/213615571-939c109d-67eb-4246-9d6d-5a2d670ce695.png" weight="450" height="700">       
+
 리뷰에서는 긍정리뷰, 부정리뷰를 가리지 않고 대부분 제품과 배송에 대한 이야기가 가장 많아 **제품의 품질과 배송 속도가 리뷰 점수에 영향이 있다는 것**을 알 수 있습니다.     
  
 - **리뷰 데이터 네트워크 그래프**      
