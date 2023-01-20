@@ -50,7 +50,7 @@
 ```     
 
 ## 🔎 Analysis Result     
-#### 🙂 고객 만족도 분석     
+### 🙂 고객 만족도 분석     
 - **별 리뷰 수**      
 
 <img src="https://user-images.githubusercontent.com/72390138/213614063-1b2aad21-5f6e-4932-9151-be7b0bedd1e0.png" weight="500" height="350">       
@@ -100,7 +100,7 @@
  ➡ 배송 기간, 고객센터와의 연결 그리고 포장, 품질에 대한 개선점이 필요
 ```
  
-#### 😕 list 약점 분석
+### 😕 list 약점 분석
 **🚚 배송 지연 분석**          
 <img src="https://user-images.githubusercontent.com/72390138/213616542-142104dd-abe8-4e6a-9996-444cef1eaf47.png" weight="450" height="300">       
 - Olist는 소비자가 판매자에게 물품을 구매하기로 결정하면, 판매자로부터 물건을 받아 **Olist의 유통업체를 통해** 배달이 되는 구조이다.     
@@ -134,8 +134,9 @@
 판매량과 부정 리뷰 수의 뚜렷한 상관관계    
 <img src="https://user-images.githubusercontent.com/72390138/213619265-9ef604c4-a006-42f1-a61a-186f69c63f3a.png" weight="450" height="300">        
 
-#### 🧐 해결책 & 대안 제시    
-**🚚 배송 지연**   
+### 🧐 해결책 & 대안 제시    
+#### 🚚 배송 지연
+
 1️⃣ 유통업체 파트너 변경        
 - 제안 배경      
 판매자에서 물류 파프터에게 전달되는데 걸린 기간      
