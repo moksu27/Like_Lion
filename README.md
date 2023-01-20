@@ -121,7 +121,7 @@
 특정 물품에 대해서 별점이 낮은 경우를 확인할 수 있었습니다.   
 인기 있는 상품, 즉 판매량이 많은 상품이 부정 리뷰 수가 많음을 확인
 ➡ 이는 리뷰 자체 수가 높아 부정 리뷰 수가 많은 것이므로, 품목 자체에 특정한 이유로 부정 리뷰 수가 많다고 보기 어렵다고 판단           
-<img src="https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png" weight="550" height="400">       
+<img src="https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png" weight="350" height="200">       
  
 2점 이하의 리뷰를 받은 하위 20개 품목 / 인기 상품의 판매량       
 <img src="https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png" weight="650" height="400">       
@@ -155,7 +155,7 @@
 2️⃣ 자체 물류 센터      
 - 가설 : 판매자와 소비자 간의 거리와 배송 기간 사이에 상관관계가 있을 것이다.        
 <img src="https://user-images.githubusercontent.com/72390138/213620237-4cf2818e-4e8c-4712-a415-378d7417febd.png" weight="350" height="300">      
-인프라의 영향으로 배송지가 멀수록 배송기간이 오래걸릴 것 이라고 생각하여 분석해 보았을 때 판매자와 구매자의 위도와 경도를 통해 계산한 거리 값은 배송기간과 유의미한 선형적 관계가 없음을 알 수 있었습니다.      
+인프라의 영향으로 배송지가 멀수록 배송기간이 오래걸릴 것 이라고 생각하여 분석해 보았을 때 판매자와 구매자의 위도와 경도를 통해 계산한 거리 값은 배송기간과 유의미한 선형적 관계가 없음을 알 수 있었습니다.              
 ➡ 가설검정 기각
 
 - 한계점
@@ -172,21 +172,21 @@
 예상일과 배송일이 같은 경우 평점 점수별 리뷰 수     
 <img src="https://user-images.githubusercontent.com/72390138/213620579-10568ab4-fac9-455b-85dc-43d86448ec7f.png" weight="550" height="400">      
 
-평균 평점 : **<span style="color:red">3.980298913043478<\span>**     
+평균 평점 : **<span style="color:red">3.980298913043478</span>**     
 
 2. order_estimated_delivery_date보다 order_delivered_customer_date가 작은 경우      
 ➡ 즉, 빨리 도착한 경우      
 예상일보다 빨리 도착했을 경우 평점 점수별 리뷰 수     
 <img src="https://user-images.githubusercontent.com/72390138/213620936-c11ac805-0ac9-457c-a9b0-eb2c5433654e.png" weight="550" height="400">     
 
-평균 평점 : **<span style="color:red">4.208596725335307<\span>**       
+평균 평점 : **<span style="color:red">4.208596725335307</span>**       
  
 3. order_estimated_delivery_date보다 order_delivered_customer_date가 큰 경우       
 ➡ 즉, 예정일보다 늦게 도착한 경우      
 배송일이 예상일보다 늦은 경우 평점 점수별 리뷰 수      
 <img src="https://user-images.githubusercontent.com/72390138/213621035-e815eae6-9a39-4660-b74e-7d660788dd3f.png" weight="550" height="400">       
 
-평균 평점 : **<span style="color:red">2.254915632408311<\span>**        
+평균 평점 : **<span style="color:red">2.254915632408311</span>**        
  
 이렇게 나눠 보게되면 배송예정일보다 빠르게 제품을 받거나 맞춰 받는 경우는 대부분의 고객은 5점을 주었고 그리하여 평균 평점은 두가지의 경우 전부 약 4점을 유지했습니다.     
 그러나 **배송예정일보다 제품을 늦게받는 경우는 대부분 1점을 주었고 평균 평점 또한 약 2점으로 급격히 떨어지는 것을 확인**할 수 있었습니다.     
