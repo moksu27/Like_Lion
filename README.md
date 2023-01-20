@@ -153,8 +153,8 @@
 → 타 부서에게서 추가 관련 데이터와 분석 요청이 들어올 시 그 때 분석 가능함       
  
 2️⃣ 자체 물류 센터      
-- 가설 : 판매자와 소비자 간의 거리와 배송 기간 사이에 상관관계가 있을 것이다.    
-![image](https://user-images.githubusercontent.com/72390138/213620237-4cf2818e-4e8c-4712-a415-378d7417febd.png)       
+- 가설 : 판매자와 소비자 간의 거리와 배송 기간 사이에 상관관계가 있을 것이다.        
+<img src="https://user-images.githubusercontent.com/72390138/213620237-4cf2818e-4e8c-4712-a415-378d7417febd.png" weight="350" height="300">      
 인프라의 영향으로 배송지가 멀수록 배송기간이 오래걸릴 것 이라고 생각하여 분석해 보았을 때 판매자와 구매자의 위도와 경도를 통해 계산한 거리 값은 배송기간과 유의미한 선형적 관계가 없음을 알 수 있었습니다.      
 ➡ 가설검정 기각
 
@@ -170,19 +170,19 @@
 1. order_estimated_delivery_date와 order_delivered_customer_date가 같은 경우     
 ➡ 즉, 예정일에 맞춰 도착한 경우     
 예상일과 배송일이 같은 경우 평점 점수별 리뷰 수     
-![image](https://user-images.githubusercontent.com/72390138/213620579-10568ab4-fac9-455b-85dc-43d86448ec7f.png)     
+<img src="https://user-images.githubusercontent.com/72390138/213620579-10568ab4-fac9-455b-85dc-43d86448ec7f.png" weight="350" height="300">       
 평균 평점 : **<span style="color:red">3.980298913043478**     
 
 2. order_estimated_delivery_date보다 order_delivered_customer_date가 작은 경우      
 ➡ 즉, 빨리 도착한 경우      
 예상일보다 빨리 도착했을 경우 평점 점수별 리뷰 수     
-![image](https://user-images.githubusercontent.com/72390138/213620936-c11ac805-0ac9-457c-a9b0-eb2c5433654e.png)
+<img src="https://user-images.githubusercontent.com/72390138/213620936-c11ac805-0ac9-457c-a9b0-eb2c5433654e.png" weight="350" height="300">       
 평균 평점 : **<span style="color:red">4.208596725335307**       
  
 3. order_estimated_delivery_date보다 order_delivered_customer_date가 큰 경우       
 ➡ 즉, 예정일보다 늦게 도착한 경우      
 배송일이 예상일보다 늦은 경우 평점 점수별 리뷰 수      
-![image](https://user-images.githubusercontent.com/72390138/213621035-e815eae6-9a39-4660-b74e-7d660788dd3f.png)
+<img src="https://user-images.githubusercontent.com/72390138/213621035-e815eae6-9a39-4660-b74e-7d660788dd3f.png" weight="350" height="300">       
 평균 평점 : **<span style="color:red">2.254915632408311**        
  
 이렇게 나눠 보게되면 배송예정일보다 빠르게 제품을 받거나 맞춰 받는 경우는 대부분의 고객은 5점을 주었고 그리하여 평균 평점은 두가지의 경우 전부 약 4점을 유지했습니다.     
