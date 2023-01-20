@@ -17,7 +17,7 @@
 
 
 ## 📃 summary    
-<img src="https://user-images.githubusercontent.com/72390138/213611441-dd3b1c59-530f-43c7-91da-019019b918b3.png" weight="550" height="300">            
+<img src="https://user-images.githubusercontent.com/72390138/213611441-dd3b1c59-530f-43c7-91da-019019b918b3.png" weight="650" height="500">            
 저희는 타겟을 설정하여 olist 기업의 약점과 강점을 분석하고 olist store의 marketing 전략을 내세우고자 합니다.   
 솔루션을 통한 향후 더 나은 서비스를 제공할 수 있을 것입니다.   
 
@@ -94,10 +94,10 @@
  
 #### 😕 list 약점 분석
 **🚚 배송 지연 분석**          
-<img src="https://user-images.githubusercontent.com/72390138/213616542-142104dd-abe8-4e6a-9996-444cef1eaf47.png" weight="650" height="450">       
+<img src="https://user-images.githubusercontent.com/72390138/213616542-142104dd-abe8-4e6a-9996-444cef1eaf47.png" weight="450" height="300">       
 - Olist는 소비자가 판매자에게 물품을 구매하기로 결정하면, 판매자로부터 물건을 받아 **Olist의 유통업체를 통해** 배달이 되는 구조이다.     
 - 리뷰 점수 별 배송 지연 상태를 보았을 때, 예상 배송 기간보다 배송이 **지연** 되었을 때 대부분 **1~2점**으로 낮은 점수를 받고 있는 것을 확인할 수 있다.       
-<img src="https://user-images.githubusercontent.com/72390138/213617474-0c8a8f79-713c-44e9-8b02-1ae57faaaa4c.png" weight="650" height="450">       
+<img src="https://user-images.githubusercontent.com/72390138/213617474-0c8a8f79-713c-44e9-8b02-1ae57faaaa4c.png" weight="450" height="300">       
 
 
 **📦 배송 누락**
@@ -115,10 +115,10 @@
 특정 물품에 대해서 별점이 낮은 경우를 확인할 수 있었습니다.   
 인기 있는 상품, 즉 판매량이 많은 상품이 부정 리뷰 수가 많음을 확인
 ➡ 이는 리뷰 자체 수가 높아 부정 리뷰 수가 많은 것이므로, 품목 자체에 특정한 이유로 부정 리뷰 수가 많다고 보기 어렵다고 판단           
-<img src="https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png" weight="650" height="450">       
+<img src="https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png" weight="550" height="400">       
  
 2점 이하의 리뷰를 받은 하위 20개 품목/인기 상품의 판매량       
-<img src="https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png" weight="450" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png" weight="650" height="400">       
  
 판매량에 따른 부정 리뷰 수     
 <img src="https://user-images.githubusercontent.com/72390138/213619200-eceeb2fa-57fd-44df-a6bd-bf16abd2c1c0.png" weight="450" height="300">     
