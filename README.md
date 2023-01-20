@@ -24,8 +24,11 @@
   
 #### Olist Store 란 ❓     
 <img src="https://user-images.githubusercontent.com/72390138/213611065-4e3c97cb-4435-49c1-84be-4ef2da7c2a32.png" weight="450" height="300">       
+
 - 브라질 이커머스 마켓플레이스        
+ 
 - 판매자가 다양한 시장에서 상품을 판매할 수 있도록 시장을 개척해주는 역할        
+
 - 다양한 등급별 서비스를 통해 판매자에게 더 나은 서비스를 제공          
 
 ## 🗂 Data Info.     
@@ -53,8 +56,7 @@
 <img src="https://user-images.githubusercontent.com/72390138/213614063-1b2aad21-5f6e-4932-9151-be7b0bedd1e0.png" weight="500" height="350">       
 <img src="https://user-images.githubusercontent.com/72390138/213614080-8865cefd-1d79-45d0-8355-fd7f52aed1e3.png" weight="350" height="250">       
 
-현재 고객의 만족도를 파악해보자면 1~3점의 리뷰를 가지는 비율이 **약 23%**로 개선이 필요함을 느꼈습니다.      
- 
+현재 고객의 만족도를 파악해보자면 1~3점의 리뷰를 가지는 비율이 약 23%로 개선이 필요함을 느꼈습니다.      
 
 - **리뷰 살펴보기**    
 
