@@ -13,7 +13,7 @@
 |<span style="color:blue">[배수목](https://github.com/moksu27)</span>|<a href="https://github.com/moksu27"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>||EDA & Visulization & Analysis & PPT|                  
 |<span style="color:blue">[서제아]()|||EDA & Visulization & Analysis & PPT & Poster|                           
 |<span style="color:blue">[정재영]()|||EDA & Visulization & Analysis & PPT & Poster|             
-|<span style="color:blue">[조현준](https://github.com/chohj118)|<a href="https://github.com/chohj118"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://chohj118-aischool.tistory.com"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Storyblok&logoColor=white"/>|EDA & Visulization & Analysis & PPT & Presenter|          
+|<span style="color:blue">[조현준](https://github.com/chohj118)|<a href="https://github.com/chohj118"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://chohj118-aischool.tistory.com"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/>|EDA & Visulization & Analysis & PPT & Presenter|          
 
 
 ## 📃 summary    
