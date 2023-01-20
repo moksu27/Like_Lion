@@ -102,10 +102,13 @@
  
 ### 😕 list 약점 분석
 #### 🚚 배송 지연 분석        
-<img src="https://user-images.githubusercontent.com/72390138/213616542-142104dd-abe8-4e6a-9996-444cef1eaf47.png" weight="450" height="300">       
-- Olist는 소비자가 판매자에게 물품을 구매하기로 결정하면, 판매자로부터 물건을 받아 **Olist의 유통업체를 통해** 배달이 되는 구조이다.     
-- 리뷰 점수 별 배송 지연 상태를 보았을 때, 예상 배송 기간보다 배송이 **지연** 되었을 때 대부분 **1~2점**으로 낮은 점수를 받고 있는 것을 확인할 수 있다.       
-<img src="https://user-images.githubusercontent.com/72390138/213617474-0c8a8f79-713c-44e9-8b02-1ae57faaaa4c.png" weight="450" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/213616542-142104dd-abe8-4e6a-9996-444cef1eaf47.png" weight="450" height="300">     
+
+Olist는 소비자가 판매자에게 물품을 구매하기로 결정하면, 판매자로부터 물건을 받아 **Olist의 유통업체를 통해** 배달이 되는 구조이다.      
+
+리뷰 점수 별 배송 지연 상태를 보았을 때, 예상 배송 기간보다 배송이 **지연** 되었을 때 대부분 **1~2점**으로 낮은 점수를 받고 있는 것을 확인할 수 있다.        
+
+<img src="https://user-images.githubusercontent.com/72390138/213617474-0c8a8f79-713c-44e9-8b02-1ae57faaaa4c.png" weight="450" height="300">        
 
 
 **📦 배송 누락**
