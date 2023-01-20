@@ -1,7 +1,7 @@
 # olist-corporate-analysis
 Insight from olist corporate analysis
 
-<img src="https://user-images.githubusercontent.com/72390138/213609822-bc0a9ad9-55ed-4517-b1b5-39f67e64c0e6.png" weight="450" height="350"> 
+<img src="https://user-images.githubusercontent.com/72390138/213609822-bc0a9ad9-55ed-4517-b1b5-39f67e64c0e6.png" weight="450" height="300"> 
 **🦁 Likelion AI SCHOOL7 DATATHON 4️⃣조 사랑합니다 고객님🧡 팀**  
 
 #### 👨‍👩‍👧‍👦 Team Info.    
