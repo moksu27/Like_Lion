@@ -17,32 +17,34 @@
 
 
 ## 📃 summary    
-<img src="https://user-images.githubusercontent.com/72390138/213611441-dd3b1c59-530f-43c7-91da-019019b918b3.png" weight="450" height="300">            
+<img src="https://user-images.githubusercontent.com/72390138/213611441-dd3b1c59-530f-43c7-91da-019019b918b3.png" weight="550" height="300">            
 저희는 타겟을 설정하여 olist 기업의 약점과 강점을 분석하고 olist store의 marketing 전략을 내세우고자 합니다.   
 솔루션을 통한 향후 더 나은 서비스를 제공할 수 있을 것입니다.   
 
   
-### Olist Store 란 ❓     
-<img src="https://user-images.githubusercontent.com/72390138/213611065-4e3c97cb-4435-49c1-84be-4ef2da7c2a32.png" weight="450" height="300">      
-- 브라질 이커머스 마켓플레이스       
-- 판매자가 다양한 시장에서 상품을 판매할 수 있도록 시장을 개척해주는 역할       
-- 다양한 등급별 서비스를 통해 판매자에게 더 나은 서비스를 제공         
+#### Olist Store 란 ❓     
+<img src="https://user-images.githubusercontent.com/72390138/213611065-4e3c97cb-4435-49c1-84be-4ef2da7c2a32.png" weight="450" height="300">       
+- 브라질 이커머스 마켓플레이스        
+- 판매자가 다양한 시장에서 상품을 판매할 수 있도록 시장을 개척해주는 역할        
+- 다양한 등급별 서비스를 통해 판매자에게 더 나은 서비스를 제공          
 
 ## 🗂 Data Info.     
 **📂 kaggle olist e-commerce dataset** : [https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 
-<img src="https://user-images.githubusercontent.com/72390138/213612397-48491282-3b37-4cfc-b628-a66a2daeb547.png" weight="450" height="300">    
+<img src="https://user-images.githubusercontent.com/72390138/213612397-48491282-3b37-4cfc-b628-a66a2daeb547.png" weight="650" height="500">    
   
 ## ⭐ Target & Situation     
 <img src="https://user-images.githubusercontent.com/72390138/213613509-74231174-824f-4048-bfb7-de936463816c.png" weight="450" height="300">       
-```
+
+```    
 🎯 Target : CS팀
-```
-```
+```    
+
+```      
 ❓ Problematic situation :
 현재 확보한 리뷰 점수 중 약 2만 건 이상이 3점 이하의 점수를 받고 있습니다.     
 현재 고객들이 어떤 불만 사항을 가지고 있으며, 이를 해소하고 더 나은 고객 서비스를 제공할 방안을 마련해주세요.     
 또, 현재 고객들이 우리 서비스에 만족하고 있는 부분을 고려하여, 어떤 서비스를 유지/보수해야 하는 지 알려주세요.      
-```    
+```     
 
 ## 🔎 Analysis Result     
 #### 🙂 고객 만족도 분석     
@@ -52,12 +54,12 @@
 현재 고객의 만족도를 파악해보자면 1~3점의 리뷰를 가지는 비율이 **약 23%**로 개선이 필요함을 느꼈습니다.     
  
 - **리뷰 살펴보기**    
-긍정 리뷰      
-![image](https://user-images.githubusercontent.com/72390138/213614448-87ec3ca9-3e77-4154-aaaa-3520982d3816.png)       
+긍정 리뷰         
+<img src="https://user-images.githubusercontent.com/72390138/213614448-87ec3ca9-3e77-4154-aaaa-3520982d3816.png" weight="450" height="300">       
 
-부정리뷰
-![image](https://user-images.githubusercontent.com/72390138/213614481-799b582a-f0d5-45dc-9223-875cb88ebc1e.png)     
- 
+부정리뷰     
+<img src="https://user-images.githubusercontent.com/72390138/213614481-799b582a-f0d5-45dc-9223-875cb88ebc1e.png" weight="450" height="300">       
+
 평점이 낮은 리뷰를 보게 되면, '배송을 받지 못했다.', '배송이 느리다.' 등 배송에 대한 불만이 주를 이루는 것을 볼 수 있었습니다.   
 또한, 불만에 대한 고객센터 연결이 빠르게해결되지 않는 점을 리뷰 데이터로 학인할 수 있었고, 언제 돌아올지 모르는 고객센터의 답변을 무한정 기다리는 과정은 곧 olist 서비스에 대한 신뢰도 하락과 연결될 것이라고 판단했습니다.     
 따라서, 리뷰 점수가 낮은 경우 배송에 대한 큰 불만을 가지고 있다고 볼 수 있었습니다.    
@@ -67,14 +69,14 @@
 리뷰에서는 긍정리뷰, 부정리뷰를 가리지 않고 대부분 제품과 배송에 대한 이야기가 가장 많아 제품의 품질과 배송 속도가 리뷰 점수에 영향이 있다는 것을 알 수 있습니다.     
  
 - **리뷰 데이터 네트워크 그래프**     
-** 평점 1~3점대 **    
+** 평점 1-3점대 **    
 ![image](https://user-images.githubusercontent.com/72390138/213615736-6898b5e3-2ae6-4a68-9039-2362b126557e.png)
-먼저, 1~3점대의 리뷰들의 네트워크 그래프를 살펴보면 제품 언급이 많음과 동시에 배송이라는 단어가 연결되어 언급이 많이 됨을 확인할 수 있습니다.      
+먼저, 1-3점대의 리뷰들의 네트워크 그래프를 살펴보면 제품 언급이 많음과 동시에 배송이라는 단어가 연결되어 언급이 많이 됨을 확인할 수 있습니다.      
 그리고 이 둘과 같이 연결된 “기다리”, “시간”, “취소” 등의 단어들도 함께 언급이 많이 된 것이 확인됩니다.       
 이를 보아, 제품 배송 기간에 대한 불만이 많았다는 것을 알아낼 수 있었습니다.       
 그 외에 제품과 같이 반품, 사진, 상태, 포장, 연락 등의 언급이 있었지만, 언급가 적은 것으로 보아 고객에게 큰 불만을 주는 영역이 아닌 부분으로 판단됩니다.      
 
-** 평점 4~5점대 **     
+** 평점 4-5점대 **     
 ![image](https://user-images.githubusercontent.com/72390138/213615884-93cd4e90-42b8-4766-b4b2-814c6f992d6b.png)       
 다음으로 4-5점대 리뷰들의 네트워크 그래프를 살펴보면 제품과 함께 “배송”, “도착”, “정시”, “완벽”, “추천” 등의 단어가 많이 언급됨을 확인할 수 있습니다.       
 이를 통해 제품 배송이 잘 이루어졌을 때는 고객들의 만족도가 높아짐을 확인할 수 있었습니다.       
@@ -96,24 +98,27 @@
 - 리뷰 점수 별 배송 지연 상태를 보았을 때, 예상 배송 기간보다 배송이 **지연** 되었을 때 대부분 **1~2점**으로 낮은 점수를 받고 있는 것을 확인할 수 있다.       
 ![image](https://user-images.githubusercontent.com/72390138/213617474-0c8a8f79-713c-44e9-8b02-1ae57faaaa4c.png)
 
+
 **📦 배송 누락**
 - 리뷰의 내용을 일부 파악해 보았을 때 판매자가 제품을 일부 누락하여 발송하는 경우, 제품의 부실한 포장 상태 등에 불만을 가지는 경우가 파악되었습니다.   
 - 위의 워드클라우드나, 그래프 표현에서도 물품 누락, 포장 등과 같은 제품에 대한 불만이 있었습니다.     
 ![image](https://user-images.githubusercontent.com/72390138/213617717-e1e723d7-b4c3-4901-aa12-d4742a45200d.png)
 
+
 **🔊 고객센터 소통**     
 - 평점 1~3점의 부정적 리뷰를 워드클라우드와 네트워크 그래프로 나타내었을 때 연락이라는 단어가 언급되었습니다. 이는 고객센터, 판매자로의 연락에 문제가 있었음을 의미한다.     
 - 고객센터와 연결이 되지 않아 **환불, 누락 건에 대해 해결되지 않은 경우**가 있음을 확인하였습니다.       
 ![image](https://user-images.githubusercontent.com/72390138/213617866-af902b1e-f2fa-4f28-95cd-c249455da0a2.png)      
- 
+
+
 **🎁 낮은 평점을 가진 특정 물품**    
 특정 물품에 대해서 별점이 낮은 경우를 확인할 수 있었습니다.   
 인기 있는 상품, 즉 판매량이 많은 상품이 부정 리뷰 수가 많음을 확인
 ➡ 이는 리뷰 자체 수가 높아 부정 리뷰 수가 많은 것이므로, 품목 자체에 특정한 이유로 부정 리뷰 수가 많다고 보기 어렵다고 판단        
 ![image](https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png)        
 
-2점 이하의 리뷰를 받은 하위 20개 품목       /         인기 상품의 판매량
-![image](https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png)       
+2점 이하의 리뷰를 받은 하위 20개 품목      \t        /       \t        인기 상품의 판매량       
+<img src="https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png" weight="450" height="300">       
  
 판매량에 따른 부정 리뷰 수     
 <img src="https://user-images.githubusercontent.com/72390138/213619200-eceeb2fa-57fd-44df-a6bd-bf16abd2c1c0.png" weight="450" height="300">     
