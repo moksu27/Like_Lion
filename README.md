@@ -103,12 +103,12 @@
 **📦 배송 누락**
 - 리뷰의 내용을 일부 파악해 보았을 때 판매자가 제품을 일부 누락하여 발송하는 경우, 제품의 부실한 포장 상태 등에 불만을 가지는 경우가 파악되었습니다.   
 - 위의 워드클라우드나, 그래프 표현에서도 물품 누락, 포장 등과 같은 제품에 대한 불만이 있었습니다.     
-<img src="https://user-images.githubusercontent.com/72390138/213617717-e1e723d7-b4c3-4901-aa12-d4742a45200d.png" weight="650" height="450">       
+<img src="https://user-images.githubusercontent.com/72390138/213617717-e1e723d7-b4c3-4901-aa12-d4742a45200d.png" weight="450" height="300">       
 
 **🔊 고객센터 소통**     
 - 평점 1~3점의 부정적 리뷰를 워드클라우드와 네트워크 그래프로 나타내었을 때 연락이라는 단어가 언급되었습니다. 이는 고객센터, 판매자로의 연락에 문제가 있었음을 의미한다.     
 - 고객센터와 연결이 되지 않아 **환불, 누락 건에 대해 해결되지 않은 경우**가 있음을 확인하였습니다.       
-<img src="https://user-images.githubusercontent.com/72390138/213617866-af902b1e-f2fa-4f28-95cd-c249455da0a2.png" weight="650" height="450">       
+<img src="https://user-images.githubusercontent.com/72390138/213617866-af902b1e-f2fa-4f28-95cd-c249455da0a2.png" weight="450" height="300">       
 
  
 **🎁 낮은 평점을 가진 특정 물품**    
@@ -117,7 +117,7 @@
 ➡ 이는 리뷰 자체 수가 높아 부정 리뷰 수가 많은 것이므로, 품목 자체에 특정한 이유로 부정 리뷰 수가 많다고 보기 어렵다고 판단           
 <img src="https://user-images.githubusercontent.com/72390138/213618767-89d88dbc-d82a-4ee7-bf48-a2ba5f6b19da.png" weight="550" height="400">       
  
-2점 이하의 리뷰를 받은 하위 20개 품목/인기 상품의 판매량       
+2점 이하의 리뷰를 받은 하위 20개 품목 / 인기 상품의 판매량       
 <img src="https://user-images.githubusercontent.com/72390138/213619114-dd5040dc-5872-45d6-ae78-d17ad367cb3a.png" weight="650" height="400">       
  
 판매량에 따른 부정 리뷰 수     
