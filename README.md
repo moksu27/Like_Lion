@@ -18,7 +18,7 @@
 
 ## 📃 summary    
 <img src="https://user-images.githubusercontent.com/72390138/213611441-dd3b1c59-530f-43c7-91da-019019b918b3.png" weight="650" height="500">            
-저희는 타겟을 설정하여 olist 기업의 약점과 강점을 분석하고 olist store의 marketing 전략을 내세우고자 합니다.   
+저희는 타겟을 설정하여 olist 기업의 약점과 강점을 분석하고 olist store의 marketing 전략을 내세우고자 합니다.       
 솔루션을 통한 향후 더 나은 서비스를 제공할 수 있을 것입니다.    
 
   
