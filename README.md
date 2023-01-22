@@ -8,7 +8,7 @@
 #### 👨‍👩‍👧‍👦 Team Info.    
 |name|github|velog&blog|role|                             
 |:---:|:---:|:---:|:-----:|           
-|<span style="color:blue">[강민정👑]()|||EDA & Visulization & Analysis & PPT & Leader|           
+|<span style="color:blue">[강민정👑](https://github.com/KMJis)|<a href="https://github.com/KMJis"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>||EDA & Visulization & Analysis & PPT & Leader|           
 |<span style="color:blue">[김예지](https://github.com/meji9086)</span>|<a href="https://github.com/meji9086"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://blog.naver.com/meji9086"><img src="https://img.shields.io/badge/blog-09B3AF?style=flat-square&logo=Storyblok&logoColor=white"/>|EDA & Visulization & Analysis & PPT|                                           
 |<span style="color:blue">[배수목](https://github.com/moksu27)</span>|<a href="https://github.com/moksu27"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://seeding.tistory.com"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/>|EDA & Visulization & Analysis & PPT|                  
 |<span style="color:blue">[서제아](https://github.com/jeaseo)</span>|<a href="https://github.com/jeaseo"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|<a href="https://velog.io/@miniaa"><img src="https://img.shields.io/badge/velog-20C997?style=flat-square&logo=velog&logoColor=white"/>|EDA & Visulization & Analysis & PPT & Poster|                           
